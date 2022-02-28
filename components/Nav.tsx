@@ -4,7 +4,7 @@ import requests from '../utils/requests'
 function Nav() {
   const router = useRouter()
   return (
-    <nav className="relative">
+    <nav className="relative mt-24">
       <div className="flex space-x-10 overflow-x-scroll whitespace-nowrap px-10 text-2xl scrollbar-hide sm:space-x-20 sm:px-20">
         {Object.entries(requests).map(([key, value]) => (
           <h2

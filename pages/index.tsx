@@ -13,7 +13,7 @@ const Home: NextPage = ({ results }: any) => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <Nav />
       <Results results={results} />
     </div>
